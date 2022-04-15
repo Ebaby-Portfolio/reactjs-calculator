@@ -83,6 +83,20 @@ button:active {
     outline: none;
 }
 
-.highlight {
+.highlight-azure {
     background: #56cbdb;
+}
+
+.highlight-blond {
+    background: #d7da4f;
+    color: black;
+}
+
+.highlight-rose {
+    background: #df6caf;
+}
+
+.highlight-verde {
+    background: #53e65f;
+    color: black;
 }
