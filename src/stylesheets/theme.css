@@ -1,0 +1,74 @@
+.themes {
+    width: 100%;
+    height: 75px;
+    background: rgba(0, 0, 0, 0.65);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    top: 75%;
+    position: absolute;
+    transform: translate(-50%, -0);
+}
+
+.theme {
+    width: 64px;
+    height: 64px;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+}
+
+.theme:hover {
+    cursor: pointer;
+}
+
+.theme .buns {
+    width: 100%;
+    height: 75%;
+    border-radius: 5px;
+    background: rgba(0, 0, 0, 0.75);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.theme .bun {
+    width: 65%;
+    height: 3px;
+    margin-bottom: 3px;
+}
+
+.white {
+    background: white;
+}
+
+.azure {
+    background: #56cbdb;
+}
+
+.blond {
+    background: #d7da4f;
+}
+
+.rose {
+    background: #df6caf;
+}
+
+.verde {
+    background: #53e65f;
+}
+
+.theme .name {
+    width: 100%;
+    height: 25%;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    line-height: 17px;
+}
