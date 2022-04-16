@@ -31,7 +31,7 @@ function App() {
     }
   }
 
-  function onClickApplyTheme(themeName) {
+  const onClickApplyTheme = (themeName) => {
     const newTheme = "highlight-".concat(themeName.toString().toLowerCase());
     setTheme(newTheme);
   }
