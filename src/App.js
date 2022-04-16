@@ -33,7 +33,6 @@ function App() {
 
   function onClickApplyTheme(themeName) {
     const newTheme = "highlight-".concat(themeName.toString().toLowerCase());
-    console.log(newTheme);
     setTheme(newTheme);
   }
 
