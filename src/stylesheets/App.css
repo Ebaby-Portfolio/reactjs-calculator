@@ -19,7 +19,7 @@ body {
 }
 
 .container {
-    top: 50%;
+    top: 40%;
     left: 50%;
     position: absolute;
     transform: translate(-50%, -50%);
@@ -92,7 +92,8 @@ button:active {
 }
 
 .highlight-rose {
-    background: #df6caf;}
+    background: #df6caf;
+}
 
 .highlight-verde {
     background: #53e65f;
