@@ -36,11 +36,13 @@ function App() {
     setTheme(newTheme);
   }
 
+  const onInputChanged = (e) => { }
+
   return (
     <>
       <div className="container">
         <form>
-          <input type="text" value={result} />
+          <input type="text" value={result} onChange={onInputChanged} />
         </form>
         <div className="keypad">
           <button className={theme} onClick={clear} id="clear">Clear</button>
